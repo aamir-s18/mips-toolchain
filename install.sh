@@ -23,8 +23,7 @@ mv /usr/pack/mips-toolchain/mips_elf_toolchain-2.0-sd /usr/pack
 rm -rf /usr/pack/mips-toolchain
 
 echo "Adding mips-toolchain to path"
-export PATH=/usr/pack/mips_elf_toolchain-2.0-sd/amd64-debian-linux8/bin/:$PATH
-echo "$PATH"
+ln -s /usr/pack/mips_elf_toolchain-2.0-sd/amd64-debian-linux8/bin/* /usr/local/bin
 
 echo "Some fixing magic"
 ln -s /usr/lib/x86_64-linux-gnu/libmpfr.so.6 /usr/lib/x86_64-linux-gnu/libmpfr.so.4
