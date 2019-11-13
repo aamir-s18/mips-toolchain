@@ -29,6 +29,5 @@ echo "Some fixing magic"
 ln -s /usr/lib/x86_64-linux-gnu/libmpfr.so.6 /usr/lib/x86_64-linux-gnu/libmpfr.so.4
 
 echo "Installing some packages for Insight"
-apt-get install itcl3 itk3 iwidgets4
-
+apt-get install itcl3 itk3 iwidgets4 libtk8.6
 
