@@ -27,7 +27,7 @@ export PATH=/usr/pack/mips_elf_toolchain-2.0-sd/amd64-debian-linux8/bin/:$PATH
 echo "$PATH"
 
 echo "Some fixing magic"
-sudo ln -s /usr/lib/x86_64-linux-gnu/libmpfr.so.6 /usr/lib/x86_64-linux-gnu/libmpfr.so.4
+ln -s /usr/lib/x86_64-linux-gnu/libmpfr.so.6 /usr/lib/x86_64-linux-gnu/libmpfr.so.4
 
 echo "Installing some packages for Insight"
 apt-get install itcl3 itk3 iwidgets4
