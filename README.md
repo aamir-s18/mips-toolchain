@@ -6,10 +6,10 @@ A simple bash script to install the mips toolchain on debian for TI1.
 
 Login as super user 
 
-Clone the repo with
+Get the installation script with
 
 ```
-git clone https://github.com/aaxs/mips-toolchain
+wget https://raw.githubusercontent.com/aaxs/mips-toolchain/master/install.sh
 ```
 
 Give install.sh some privileges
