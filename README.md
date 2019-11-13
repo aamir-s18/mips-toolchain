@@ -9,7 +9,7 @@ Login as super user
 Clone the repo with
 
 ```
-https://github.com/aaxs/mips-toolchain
+git clone https://github.com/aaxs/mips-toolchain
 ```
 
 Give install.sh some privileges
